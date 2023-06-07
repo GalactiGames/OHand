@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/index.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Training</title>
@@ -13,19 +13,41 @@
     <h2>v0.1</h2>
 
     <div class="container">
-        <h2>Connexion</h2>
-        <form>
-          <label for="username">Nom d'utilisateur:</label>
-          <input type="text" id="username" name="username" placeholder="Entrez votre nom d'utilisateur">
+        <h1>Mon Site Web</h1>
+
+        <div class="login-button">
+            <button>Connexion</button>
+          </div>
     
-          <label for="password">Mot de passe:</label>
-          <input type="password" id="password" name="password" placeholder="Entrez votre mot de passe">
+        <div class="admin-form">
+          <h2>Ajouter un nouvel article</h2>
+          <form>
+            <label for="title">Titre:</label>
+            <input type="text" id="title" name="title" placeholder="Entrez le titre de l'article">
     
-          <button type="submit">Se connecter</button>
-        </form>
+            <label for="image">Image:</label>
+            <input type="file" id="image" name="image">
     
-        <div class="message">
-          <p>Vous n'avez pas de compte? <a href="#">S'inscrire</a></p>
+            <label for="video">Vidéo:</label>
+            <input type="file" id="video" name="video">
+    
+            <label for="content">Contenu:</label>
+            <textarea id="content" name="content" placeholder="Entrez le contenu de l'article"></textarea>
+    
+            <button type="submit">Ajouter</button>
+          </form>
+        </div>
+    
+        <div class="article">
+          <h2>Titre de l'article</h2>
+          <img src="chemin/vers/image.jpg" alt="Image de l'article">
+          <p>Contenu de l'article.</p>
+        </div>
+    
+        <div class="article">
+          <h2>Titre de l'article</h2>
+          <video src="chemin/vers/video.mp4" controls></video>
+          <p>Contenu de l'article.</p>
         </div>
       </div>
 
