@@ -16,40 +16,36 @@
         <h1>Mon Site Web</h1>
 
         <div class="login-button">
-            <button>Connexion</button>
+            <a href="pages/login.html"><button>Connexion</button></a>
           </div>
     
-        <div class="admin-form">
-          <h2>Ajouter un nouvel article</h2>
-          <form>
-            <label for="title">Titre:</label>
-            <input type="text" id="title" name="title" placeholder="Entrez le titre de l'article">
-    
-            <label for="image">Image:</label>
-            <input type="file" id="image" name="image">
-    
-            <label for="video">Vidéo:</label>
-            <input type="file" id="video" name="video">
-    
-            <label for="content">Contenu:</label>
-            <textarea id="content" name="content" placeholder="Entrez le contenu de l'article"></textarea>
-    
-            <button type="submit">Ajouter</button>
-          </form>
+          <div class="article">
+            <h2>Titre de l'article 1</h2>
+            <p class="meta">Publié le 1er janvier 2023</p>
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae nunc tincidunt, rutrum tellus ac, rutrum risus. Sed eu rutrum eros, sed egestas tellus.</p>
+              <p>Nullam consectetur urna vitae neque vulputate eleifend. Morbi vehicula, dolor sed egestas aliquam, mi turpis euismod elit, ut posuere sapien arcu at tellus.</p>
+            </div>
+          </div>
+      
+          <div class="article">
+            <h2>Titre de l'article 2</h2>
+            <p class="meta">Publié le 15 février 2023</p>
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae nunc tincidunt, rutrum tellus ac, rutrum risus. Sed eu rutrum eros, sed egestas tellus.</p>
+              <p>Nullam consectetur urna vitae neque vulputate eleifend. Morbi vehicula, dolor sed egestas aliquam, mi turpis euismod elit, ut posuere sapien arcu at tellus.</p>
+            </div>
+          </div>
+      
+          <div class="article">
+            <h2>Titre de l'article 3</h2>
+            <p class="meta">Publié le 10 mars 2023</p>
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae nunc tincidunt, rutrum tellus ac, rutrum risus. Sed eu rutrum eros, sed egestas tellus.</p>
+              <p>Nullam consectetur urna vitae neque vulputate eleifend. Morbi vehicula, dolor sed egestas aliquam, mi turpis euismod elit, ut posuere sapien arcu at tellus.</p>
+            </div>
+          </div>
         </div>
-    
-        <div class="article">
-          <h2>Titre de l'article</h2>
-          <img src="chemin/vers/image.jpg" alt="Image de l'article">
-          <p>Contenu de l'article.</p>
-        </div>
-    
-        <div class="article">
-          <h2>Titre de l'article</h2>
-          <video src="chemin/vers/video.mp4" controls></video>
-          <p>Contenu de l'article.</p>
-        </div>
-      </div>
 
 </body>
 </html>
